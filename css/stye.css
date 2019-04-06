@@ -5,11 +5,12 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .logo {
     margin-right: auto;
-    margin-left: 50px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -20,13 +21,11 @@
 }
 
 .menu__item {
-    width: 170px;
     color: rgb(98, 98, 98);
-
+    margin-right: 50px;
 }
-.image__1{
+.image-container {
     text-align: center;
-    
-
-
+    padding-left: 50px;
+    padding-right: 50px; /*padding: 0 50px;*/
 }
