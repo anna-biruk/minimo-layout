@@ -1,4 +1,4 @@
-.container {
+.header {
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -24,8 +24,37 @@
     color: rgb(98, 98, 98);
     margin-right: 50px;
 }
+
 .image-container {
     text-align: center;
     padding-left: 50px;
-    padding-right: 50px; /*padding: 0 50px;*/
+    padding-right: 50px;
+    /*padding: 0 50px;*/
+}
+
+.record {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+.record__topic{
+    font-size: 14px;
+    color: #bdb7aa;
+}
+.record__title{
+    margin-top: 20px;
+    font-size: 30px;
+    color:  #626262;
+    margin-bottom: 30px;
+}
+.record__content{
+    color: #626262;
+
+}
+.record__comment {
+    margin-top: 40px;
+    font-size: 14px;
+    color:#bdb7aa ;
 }
