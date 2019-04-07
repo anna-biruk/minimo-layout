@@ -32,29 +32,77 @@
     /*padding: 0 50px;*/
 }
 
+.page {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .record {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
     margin-top: 50px;
 }
-.record__topic{
+
+.record__topic {
     font-size: 14px;
     color: #bdb7aa;
 }
-.record__title{
+
+.record__title {
     margin-top: 20px;
     font-size: 30px;
-    color:  #626262;
+    color: #626262;
     margin-bottom: 30px;
 }
-.record__content{
-    color: #626262;
 
+.record__content {
+    color: #626262;
+    line-height: 20px;
 }
+
 .record__comment {
     margin-top: 40px;
     font-size: 14px;
-    color:#bdb7aa ;
+    color: #bdb7aa;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-top: 100px;
+}
+
+.post__topic {
+    font-size: 14px;
+    color: #bdb7aa;
+    margin-top: 30px;
+}
+
+.post__title {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+
+.post__content {
+    color: #626262;
+    line-height: 20px;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post__image {
+    max-height: 316px;
+    width: 420px;
+    height: 316px;
+}
+
+.post:nth-child(even) {
+    margin-left: 60px;
 }
