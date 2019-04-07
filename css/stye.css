@@ -113,3 +113,7 @@
 .post:nth-child(even) {
     margin-left: 60px;
 }
+.menu__item:last-child{
+    margin: 0px;
+
+}
