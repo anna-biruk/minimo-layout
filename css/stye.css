@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 1080px;
+    margin: 0 auto;
+    
 }
 
 .logo {
@@ -33,8 +34,9 @@
 }
 
 .page {
-    padding-left: 200px;
-    padding-right: 200px;
+   
+    width: 900px;
+    margin: 0 auto;
 }
 
 .record {
