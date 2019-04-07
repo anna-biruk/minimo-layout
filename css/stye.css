@@ -1,3 +1,5 @@
+@import url("./fonts.css");
+
 .header {
     background-color: white;
     display: flex;
@@ -12,13 +14,16 @@
 
 .logo {
     margin-right: auto;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
+    font-family: "Inconsolata-Regular";
+    text-transform: uppercase;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
+    font-family: "PlayfairDisplay-Regular";
 }
 
 .menu__item {
@@ -59,7 +64,7 @@
 
 .record__content {
     color: #626262;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .record__comment {
@@ -90,7 +95,7 @@
 
 .post__content {
     color: #626262;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .post-container {
