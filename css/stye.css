@@ -118,7 +118,11 @@
     margin: 0px;
 
 }
-
+.menu_item_link{
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    
+}
 .footer-container{
     background-color:rgb(240,240,240);
     padding-top: 30px;
